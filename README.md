@@ -1,10 +1,10 @@
-### mqttlights
-#mqtt python appservice to serial gateway
+# mqttlights
+##mqtt python appservice to serial gateway
 
 ##Mqtt service application on Raspberry pi
 - maps mqtt topics to serial communications to Arduino
 
-# Serial
+##Serial
   - /dev/ttyUSB0
   - 9600
 
