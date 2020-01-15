@@ -28,12 +28,12 @@ state query sends state query to serial
 ```
             Query:                   Response:
 --------------------------------------------------------
-veranta     1state                   1state:1 or 1state:0
-parvekepr   2state                   2state:1 or 2state:0
-ykaula      3state                   3state:1 or 3state:0
-ulkovalot   4state                   4state:1 or 4state:0
-ykmh        5state                   5state:1 or 5state:0
-ykph        6state                   6state:1 or 6state:0
+veranta     1state                   1state:ON or 1state:OFF
+parvekepr   2state                   2state:ON or 2state:OFF
+ykaula      3state                   3state:ON or 3state:OFF
+ulkovalot   4state                   4state:ON or 4state:OFF
+ykmh        5state                   5state:ON or 5state:OFF
+ykph        6state                   6state:ON or 6state:OFF
 ```
 Arduino responds room and the state ON/OFF and switches the GPIO accordingly
 ```
